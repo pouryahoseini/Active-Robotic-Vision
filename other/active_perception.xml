@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="Assembly">
+<includepath>/opt/ros/kinetic/include</includepath>
+<includepath>/opt/ros/kinetic/include/xmlrpcpp</includepath>
+<includepath>/usr/src/gtest</includepath>
+<includepath>/usr/local/include</includepath>
+<includepath>/home/pourya/Programs/freenect2/include</includepath>
+<includepath>/home/pourya/Programs/libfreenect/include</includepath>
+<includepath>/home/pourya/Programs/libfreenect/wrappers/cpp</includepath>
+<includepath>/usr/include/libusb-1.0</includepath>
+<includepath>/usr/include/python3.5</includepath>
+<includepath>/usr/include/pcl-1.7/</includepath>
+
+</language>
+<language name="GNU C++">
+<includepath>/opt/ros/kinetic/include</includepath>
+<includepath>/opt/ros/kinetic/include/xmlrpcpp</includepath>
+<includepath>/usr/src/gtest</includepath>
+<includepath>/usr/local/include</includepath>
+<includepath>/home/pourya/Programs/freenect2/include</includepath>
+<includepath>/home/pourya/Programs/libfreenect/include</includepath>
+<includepath>/home/pourya/Programs/libfreenect/wrappers/cpp</includepath>
+<includepath>/usr/include/libusb-1.0</includepath>
+<includepath>/usr/include/python3.5</includepath>
+<includepath>/usr/include/pcl-1.7/</includepath>
+
+</language>
+<language name="GNU C">
+<includepath>/opt/ros/kinetic/include</includepath>
+<includepath>/opt/ros/kinetic/include/xmlrpcpp</includepath>
+<includepath>/usr/src/gtest</includepath>
+<includepath>/usr/local/include</includepath>
+<includepath>/home/pourya/Programs/freenect2/include</includepath>
+<includepath>/home/pourya/Programs/libfreenect/include</includepath>
+<includepath>/home/pourya/Programs/libfreenect/wrappers/cpp</includepath>
+<includepath>/usr/include/libusb-1.0</includepath>
+<includepath>/usr/include/python3.5</includepath>
+<includepath>/usr/include/pcl-1.7/</includepath>
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="Assembly">
+<macro>
+<name>ROSCONSOLE_BACKEND_LOG4CXX</name><value/>
+</macro>
+<macro>
+<name>ROS_PACKAGE_NAME</name><value>"active_perception"</value>
+</macro>
+
+</language>
+<language name="GNU C++">
+<macro>
+<name>ROSCONSOLE_BACKEND_LOG4CXX</name><value/>
+</macro>
+<macro>
+<name>ROS_PACKAGE_NAME</name><value>"active_perception"</value>
+</macro>
+
+</language>
+<language name="GNU C">
+<macro>
+<name>ROSCONSOLE_BACKEND_LOG4CXX</name><value/>
+</macro>
+<macro>
+<name>ROS_PACKAGE_NAME</name><value>"active_perception"</value>
+</macro>
+
+</language>
+</section>
+</cdtprojectproperties>
