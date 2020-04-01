@@ -1,8 +1,0 @@
-prefix=/home/pourya/Documents/Active_Perception/devel
-
-Name: active_perception
-Description: Description of active_perception
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/pourya/Documents/Active_Perception/devel/lib 
-Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs tf image_geometry rospy

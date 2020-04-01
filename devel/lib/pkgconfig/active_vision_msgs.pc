@@ -1,8 +1,0 @@
-prefix=/home/pourya/Documents/Active_Perception/devel
-
-Name: active_vision_msgs
-Description: Description of active_vision_msgs
-Version: 0.0.0
-Cflags: -I/home/pourya/Documents/Active_Perception/devel/include
-Libs: -L/home/pourya/Documents/Active_Perception/devel/lib 
-Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs message_runtime
