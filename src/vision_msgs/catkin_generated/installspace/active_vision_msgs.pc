@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: active_vision_msgs
-Description: Description of active_vision_msgs
-Version: 0.0.0
-Cflags: -I/usr/local/include
-Libs: -L/usr/local/lib 
-Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs message_runtime
