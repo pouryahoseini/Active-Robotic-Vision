@@ -6,12 +6,12 @@ The detaied descriptions can be found in our published papers: Computers ([pdf](
 
 The robotic vision system works on the PR2's ROS robotic platform. It uses two cameras: a Kinect 3D camera installed on the robot's head and an RGB camera in the robot's forearm. It first tries to detect objects viewed by the head camera and measures the confidence on the detections. If there is any uncertain detection, the vision system plans the movement of the forearm frame and with that the secondary camera to get another viewpoint of the object with uncertain detection. After moving the secondary RGB camera close to the object, another round of object detection is done, this time in the viewpoint of the secondary camera. Later, the detections of the two camera views are matched and fused. The flowchart of the general steps can be seen below:
 <p align="center">
-  <img src="./docs/flowchart.jpg" alt="Flowchart of the active robotic vision system" height=450/>
+  <img src="./docs/flowchart.jpg" alt="Flowchart of the active robotic vision system" height=550/>
 </p>
 
 The matching is performed by trasforming object locations from one camera frame to the other one and searching for closer objects in the original frame with the transformed ones. The fusion of detections happens through either Bayesian or Dempster-Shafer fusion. Here is an example situation with objects being partially occluded. 
 <p align="center">
-  <img src="./docs/example.jpg" alt="Example detections" height=250/>
+  <img src="./docs/example.jpg" alt="Example detections" height=300/>
 </p>
 
 The red bounding box at bottom left shows an uncertain (and incorrect) detection. After the forearm movement, the detections in the secondary camera view are shown at bottom right. The top left frame shows the fusion result with corrected detections.
