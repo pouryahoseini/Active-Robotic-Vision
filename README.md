@@ -1,5 +1,5 @@
 # Active Object Detection on the PR2 Robot
-This is an active vision system on a PR2 humanoid robot to detect objects. Object detection can face issues in real-world tasks if the object is partially or totally occluded or the object viewpoint is not good enough for the vision system. This project aims at resolving that situation by dynamically identifying such situations and incorporate a second camera to improve the detection performance.
+This is an active vision system on a PR2 humanoid robot to detect objects. Object detection can face issues in real-world tasks if the object is partially occluded or the object viewpoint is not good enough for the vision system. This project aims at resolving that situation by dynamically identifying such situations and incorporate a second camera to improve the detection performance.
 
 ## Description
 The detaied descriptions can be found in our published papers: Computers ([pdf](docs/2019-Computers.pdf) and [MDPI](https://doi.org/10.3390/computers8040071)), ISVC ([pdf](docs/ISVC_Hoseini.pdf) or [Springer Link](https://doi.org/10.1007/978-3-030-33723-0_15)), CogSIMA ([pdf](docs/2018-CogSIMA.pdf) or [IEEE Xplore](https://doi.org/10.1109/COGSIMA.2018.8423982)), and ICVISP ([pdf](docs/2018-ICVISP.pdf) or [ACM DL](https://doi.org/10.1145/3271553.3271564)).
