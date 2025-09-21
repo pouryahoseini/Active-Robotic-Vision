@@ -76,4 +76,4 @@ To refer to this work you may cite our papers: [Computers](https://doi.org/10.33
 [Pourya Hoseini](https://github.com/pouryahoseini/)
 
 # Contact
-I can be reached at hoseini@nevada.unr.edu.
+I can be reached at research@pouryahoseini.com.
