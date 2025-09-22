@@ -26,7 +26,7 @@ The code is written in C++ and Python. It is dependent on ROS, MoveIt, OpenCV, S
 * Gazebo.sh: Run the Gazebo simulation environment with the preset test setup
 * Moveit.sh: To run the MoveIt service to make it possible to move the robot's parts
 
-There may some changes to the above files be needed, such as changing IP addresses, etc., to make the environment variables correct and connections to the services working. The current repository should be cloned under the source forlder of a ROS package.
+There may some changes to the above files be needed, such as changing IP addresses, etc., to make the environment variables correct and connections to the services working. The current repository should be cloned under the source folder of a ROS package.
 
 # Citation
 To refer to this work you may cite our papers: [Computers](https://doi.org/10.3390/computers8040071), [International Symposium on Visual Computing](https://doi.org/10.1007/978-3-030-33723-0_15), [IEEE Conference on Cognitive and Computational Aspects of Situation Management](https://doi.org/10.1109/COGSIMA.2018.8423982), or [International Conference on Vision, Image and Signal Processing](https://doi.org/10.1145/3271553.3271564).
